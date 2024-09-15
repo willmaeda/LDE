@@ -44,7 +44,6 @@ public class DLinkedList {
             throw new EmptyDLinkedList("A lista está vazia");
         }
         head = head.getNext();
-        head.setPrevious(null);
         size--;
         if (size == 0) {
             tail = null;
